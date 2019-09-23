@@ -7,7 +7,7 @@
 ## V8/JavaScript
 
 * Official V8 Documentation/Guides
-* V8-Related Videos/Document
+* [V8-Related Videos/Document](V8Internals.md)
 
 ## Programming Language References
 
