@@ -735,3 +735,38 @@ e
         type: bool  default: false
   --single-threaded-gc (disable the use of background gc tasks)
         type: bool  default: false
+
+
+}
+
+Other options: 
+--no-arguments
+--stress-opt
+--stress-deopt
+--stress-background-compile
+--noalways-opt
+--logfile-per-isolate
+--shell
+--test
+--send-idle-notification
+--invoke-weak-callbacks
+--omit-quit
+--no-wait-for-wasm
+--isolate
+--throws
+--icu-data-file
+--natives_blob
+--snapshot_blob
+--cache=code|none|after-execute|full-code-cache
+--enable-tracing
+--trace-path
+--trace-config
+--enable-inspector
+--lcov
+--disable-in-process-stack-traces
+--read-from-tcp-port
+--enable-os-system
+--quiet-load
+--thread-pool-size
+--stress-delay-tasks
+--module
