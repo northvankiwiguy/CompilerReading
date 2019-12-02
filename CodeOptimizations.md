@@ -16,3 +16,8 @@ Excellent discussion about Monomorphism, Polymorphism, and Megamorphism for Inli
 
 Describes the implementation of "Cross-Component Garbage Collection" as used by V8 and Blink which hold references to each other's data structures. Therefore, garbage collection
 must cleverly avoid creating islands due to each component holding lingering references to the other component's objects.
+
+#### PLDI 2019 [Accelerating Sequential Consistency for Java with Speculative Compilation]( https://dl.acm.org/citation.cfm?id=3314611) by Lun Liu, Todd Millstein, Madanlal Musuvathi
+
+Describes a modified Java HotSpot compiler that generates VBD (Volatile By Default) code to help with concurrent access to data in different threads. The optimize performance, they assume that all data is thread-safe, but also identify which classes of objects are accessed from multiple threads, then deoptimize those methods and field access to add memory barriers.
+
